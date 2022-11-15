@@ -235,7 +235,7 @@ span {
     padding: 0.75rem !important;
   }
   .comparation .code {
-    width: 100% !important;
+    width: 90% !important;
   }
   .comparation .code:first-child {
     margin-right: 0 !important;
@@ -249,6 +249,7 @@ span {
   .comparation .phone {
     height: 98vw;
     rotate: 90deg;
+    padding-right: 50px !important;
     border-radius: 8px;
   }
   .comparation .frameworks {
@@ -259,8 +260,7 @@ span {
     width: 100% !important;
   }
   .comparation .logo-tutorial {
-    width: auto !important;
-    height: 35% !important;
+    width: 50% !important;
   }
   .comparation .logo-tutorial:first-child {
     margin-right: 0 !important;

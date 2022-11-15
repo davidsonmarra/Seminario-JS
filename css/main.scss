@@ -262,7 +262,7 @@ span {
     flex-direction: column;
     padding: .75rem !important;
     .code {
-      width: 100% !important;
+      width: 90% !important;
       &:first-child {
         margin-right: 0 !important;
         margin-bottom: 5px !important;
@@ -276,6 +276,7 @@ span {
     .phone {
       height: 98vw;
       rotate: 90deg;
+      padding-right: 50px !important;
       border-radius: 8px;
     }
     .frameworks {
@@ -286,8 +287,7 @@ span {
       width: 100% !important;
     }
     .logo-tutorial {
-      width: auto !important;
-      height: 35% !important;
+      width: 50% !important;
       &:first-child {
         margin-right: 0 !important;
         margin-bottom: 1rem;
