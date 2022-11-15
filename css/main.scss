@@ -129,7 +129,39 @@ span {
         margin-right: 1rem;
       }
     }
-  } 
+    .code-phone {
+      width: 35%;
+      margin-right: 1rem !important;
+      border-radius: 8px;
+    }
+    .phone {
+      border-radius: 8px;
+    }   
+    .frameworks {
+      width: 80%;
+      border-radius: 8px;
+    }
+    .todoapp {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .face {
+      width: 30%;
+      border-radius: 8px;
+    }
+    a {
+      width: 60%;
+      padding: 0;
+      margin-right: 1rem;
+      border-radius: 8px;
+    }
+    .logo-tutorial {
+      width: 25%;
+      &:first-child {
+        margin-right: 5rem;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width : 1060px) {
@@ -202,6 +234,30 @@ span {
     font-size: .75rem !important;
   }
 
+  // .comparation { 
+  //   flex-direction: column;
+  //   padding: .75rem !important;
+  //   .code {
+  //     width: 100% !important;
+  //     &:first-child {
+  //       margin-right: 0 !important;
+  //       margin-bottom: 5px !important;
+  //     }
+  //   }
+  //   .code-phone {
+  //     width: 85% !important;
+  //     margin-bottom: 5px;
+  //     border-radius: 8px;
+  //   }
+  //   .phone {
+  //     height: 98vw;
+  //     rotate: 90deg;
+  //     border-radius: 8px;
+  //   }
+  // }
+}
+
+@media only screen and (max-width: 540px) {
   .comparation { 
     flex-direction: column;
     padding: .75rem !important;
@@ -210,6 +266,31 @@ span {
       &:first-child {
         margin-right: 0 !important;
         margin-bottom: 5px !important;
+      }
+    }
+    .code-phone {
+      width: 85% !important;
+      margin-bottom: 5px;
+      border-radius: 8px;
+    }
+    .phone {
+      height: 98vw;
+      rotate: 90deg;
+      border-radius: 8px;
+    }
+    .frameworks {
+      width: 100% !important;
+    }
+    a {
+      margin-right: 0 !important;
+      width: 100% !important;
+    }
+    .logo-tutorial {
+      width: auto !important;
+      height: 35% !important;
+      &:first-child {
+        margin-right: 0 !important;
+        margin-bottom: 1rem;
       }
     }
   }
