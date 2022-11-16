@@ -27,6 +27,9 @@ span {
   align-items: center;
   padding: 0 12px;
 }
+.section .html-css-js {
+  width: 20rem;
+}
 .section .javascript {
   width: 15rem;
   border: 2px solid black;
@@ -49,9 +52,6 @@ span {
   padding: 0;
   margin-top: 2rem;
   text-align: center;
-}
-.section img {
-  width: 15rem;
 }
 .section .infos .items {
   font-size: 1.5rem;
@@ -141,6 +141,7 @@ span {
 }
 .section .comparation .frameworks {
   width: 80%;
+  max-width: 720px;
   border-radius: 8px;
 }
 .section .comparation .todoapp {
@@ -149,21 +150,29 @@ span {
 }
 .section .comparation .face {
   width: 30%;
+  max-width: 390px;
+  margin-left: 1rem;
   border-radius: 8px;
 }
 .section .comparation a {
-  width: 60%;
-  padding: 0;
-  margin-right: 1rem;
+  width: 50%;
+  max-width: 650px;
+}
+.section .comparation a .code-img {
+  width: 100% !important;
   border-radius: 8px;
 }
+.section .comparation .ancora {
+  margin-right: 0 !important;
+}
 .section .comparation .logo-tutorial {
-  width: 25%;
+  width: 15rem;
 }
 .section .comparation .logo-tutorial:first-child {
-  margin-right: 5rem;
+  margin-right: 5rem !important;
 }
-.section .max {
+.section .phone.max {
+  width: 15rem;
   display: visible;
 }
 .section .min {
@@ -263,12 +272,14 @@ span {
   .comparation .min {
     display: block;
   }
+  .comparation .phone.min {
+    width: 100%;
+  }
   .comparation .frameworks {
     width: 100% !important;
   }
-  .comparation a {
-    margin-right: 0 !important;
-    width: 100% !important;
+  .comparation .face {
+    margin-left: 0 !important;
   }
   .comparation .logo-tutorial {
     width: 50% !important;
@@ -276,6 +287,12 @@ span {
   .comparation .logo-tutorial:first-child {
     margin-right: 0 !important;
     margin-bottom: 1rem;
+  }
+  .comparation .ancora.logo-tutorial:first-child {
+    margin-right: 0 !important;
+  }
+  .comparation .ancora.todo {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 380px) {
