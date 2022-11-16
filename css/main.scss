@@ -22,6 +22,10 @@ span {
     align-items: center;
     padding: 0 12px;
   }
+  .qrcode {
+    width: 100%;
+    max-width: 560px;
+  }
   .html-css-js {
     width: 20rem;
   }
@@ -177,6 +181,9 @@ span {
   .min {
     display: none;
   }
+  .refs {
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width : 1060px) {
@@ -322,6 +329,9 @@ span {
     .ancora.todo {
       width: 100%;
     }
+  }
+  .refs {
+    width: 100% !important;
   }
 }
 
