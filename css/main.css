@@ -25,6 +25,7 @@ span {
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  padding: 0 12px;
 }
 .section .javascript {
   width: 15rem;
@@ -162,6 +163,12 @@ span {
 .section .comparation .logo-tutorial:first-child {
   margin-right: 5rem;
 }
+.section .max {
+  display: visible;
+}
+.section .min {
+  display: none;
+}
 
 @media only screen and (max-width: 1060px) {
   .container .infos .items {
@@ -232,7 +239,7 @@ span {
 @media only screen and (max-width: 540px) {
   .comparation {
     flex-direction: column;
-    padding: 0.75rem !important;
+    padding: 0.25rem !important;
   }
   .comparation .code {
     width: 90% !important;
@@ -247,10 +254,14 @@ span {
     border-radius: 8px;
   }
   .comparation .phone {
-    height: 98vw;
-    rotate: 90deg;
-    padding-right: 50px !important;
+    width: 100%;
     border-radius: 8px;
+  }
+  .comparation .max {
+    display: none;
+  }
+  .comparation .min {
+    display: block;
   }
   .comparation .frameworks {
     width: 100% !important;

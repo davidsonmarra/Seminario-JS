@@ -21,6 +21,7 @@ span {
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    padding: 0 12px;
   }
   .javascript {
     width: 15rem;
@@ -162,6 +163,12 @@ span {
       }
     }
   }
+  .max {
+    display: visible;
+  }
+  .min {
+    display: none;
+  }
 }
 
 @media only screen and (max-width : 1060px) {
@@ -260,7 +267,7 @@ span {
 @media only screen and (max-width: 540px) {
   .comparation { 
     flex-direction: column;
-    padding: .75rem !important;
+    padding: .25rem !important;
     .code {
       width: 90% !important;
       &:first-child {
@@ -274,10 +281,14 @@ span {
       border-radius: 8px;
     }
     .phone {
-      height: 98vw;
-      rotate: 90deg;
-      padding-right: 50px !important;
+      width: 100%;
       border-radius: 8px;
+    }
+    .max {
+      display: none;
+    }
+    .min {
+      display: block;
     }
     .frameworks {
       width: 100% !important;
