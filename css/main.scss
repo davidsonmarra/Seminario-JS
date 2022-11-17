@@ -184,6 +184,16 @@ span {
   .refs {
     width: 75%;
   }
+  .refs-sec {
+    width: 95%;
+    ul {
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      font-size: .95rem;
+    }
+  }
 }
 
 @media only screen and (max-width : 1060px) {
